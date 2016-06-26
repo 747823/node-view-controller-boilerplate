@@ -1,0 +1,19 @@
+{
+  "name": "minimal-vc-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple view-controller boilerplate code using express",
+  "main": "index.js",
+  "repository": "https://github.com/747823/node-view-controller-boilerplate",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Evan Pipta",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta3"
+  },  
+  "engines": { 
+    "node": ">=6.2.1"
+  }
+}

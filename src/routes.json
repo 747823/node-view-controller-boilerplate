@@ -1,0 +1,53 @@
+{
+
+	"/": {
+		"controller": "homepage"
+	},
+	"/test/:urlPart/": {
+		"controller": "homepage",
+		"method": "testMethod"
+	},
+	"/testing/testing/": {
+		"controller": "homepage",
+		"method": "testingtesting"
+	},
+
+	"/user/": {
+		"controller": "user"
+	},
+	"/user/test/": {
+		"contrller": "user",
+		"action": "post",
+		"method": "test"
+	},
+	"/user/:id/": {
+		"controller": "user",
+		"method": "show"
+	},
+	"/user/:id/history/:page": {
+		"controller": "user",
+		"method": "history"
+	},
+
+	"/game/": {
+		"controller": "game"
+	},
+	"/game/:id/": {
+		"controller": "game",
+		"method": "show"
+	},
+
+	"/index.html": {
+		"redirect": "/", 
+		"status": 301
+	},
+	"/game/index.html": {
+		"redirect": "/game/", 
+		"status": 301
+	},
+	"/game.html": {
+		"redirect": "/game/",
+		"status": 301
+	}
+
+}
